@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asmina Nassar — AI &amp; Robotics Engineer</title>
+  <meta name="description" content="Asmina Nassar is an AI & Robotics Engineer in Magdeburg, Germany, building LLM agents, RAG pipelines, and robots that localize, explore and perceive with ROS 2.">
+  <meta name="author" content="Asmina Nassar">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Asmina Nassar — AI & Robotics Engineer">
+  <meta property="og:description" content="LLM agents, RAG and evaluation · ROS 2, SLAM, Monte Carlo localization and edge perception.">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1012" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Asmina Nassar — back to top">
+        <span class="brand-mark" aria-hidden="true">AN</span>
+        <span class="brand-name">Asmina Nassar</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hackathons">Hackathons</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Switch colour theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>Open to AI &amp; Robotics Engineer roles</p>
+          <h1>Asmina Nassar</h1>
+          <p class="hero-role">AI &amp; Robotics Engineer</p>
+          <p class="hero-lede">
+            I build systems that perceive, reason and act - from LLM agents and RAG pipelines
+            to robots that localize and explore on their own.
+          </p>
+          <p class="hero-meta">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            Magdeburg, Germany
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+
+          <ul class="social" aria-label="Profiles">
+            <li>
+              <a href="https://github.com/Asmina-hub" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 16 16" class="fill" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/asmina-nassar" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" class="fill" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:asminanassar77@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero-visual">
+          <div class="mcl-frame">
+            <canvas id="mcl-canvas" role="img"
+              aria-label="Animation: a robot drives through a floor plan with three identical rooms. Particles first spread across all three, then an LLM names the room and the particles converge on the robot."></canvas>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">01 — About Me</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm an AI and robotics engineer at the start of my career, completing an M.Sc. in
+              Digital Engineering (Data Science) at Otto-von-Guericke University Magdeburg. Over two
+              years of research and industry work I've built LLM agents, RAG pipelines and evaluation
+              suites, and put perception and reasoning onto robots that localize, explore and drive.
+            </p>
+            <p>
+              The problems I enjoy most sit at the boundary between the two: using an LLM as a
+              probabilistic sensor inside a particle filter, or letting it decide which room a robot is
+              standing in. Before AI, I spent a few years in test automation, so I care about evaluation,
+              reproducibility, and shipping software that real people use.
+            </p>
+          </div>
+
+          <aside class="now-card reveal" aria-label="Currently">
+            <p class="card-label">Currently</p>
+            <ul class="now-list">
+              <li>
+                <span class="now-title">Master's thesis</span>
+                <span class="now-sub">LLM-assisted robot localization, OVGU</span>
+              </li>
+              <li>
+                <span class="now-title">Research Assistant</span>
+                <span class="now-sub">ScaDS.AI · TU Dresden</span>
+              </li>
+              <li>
+                <span class="now-title">Looking for</span>
+                <span class="now-sub">AI &amp; Robotics Engineer roles</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-card reveal">
+            <div class="focus-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="16" r="3"/><path d="m20.2 18.2 1.8 1.8"/></svg>
+            </div>
+            <h3>AI Engineering</h3>
+            <p>Agentic systems and retrieval that hold up outside a notebook.</p>
+            <ul class="ticks">
+              <li>LLM agents with LangChain &amp; LangGraph, ReAct loops, MCP tool calling</li>
+              <li>RAG with hybrid BM25 + dense search and cross-encoder reranking</li>
+              <li>LLM-as-judge evaluation suites (DeepEval G-Eval), BLEU / ROUGE</li>
+              <li>FastAPI, PostgreSQL and Docker Compose deployments</li>
+            </ul>
+          </article>
+
+          <article class="focus-card reveal">
+            <div class="focus-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="5" y="8" width="14" height="10" rx="2"/><path d="M12 4v4M9 13h.01M15 13h.01M3 13h2M19 13h2M9 21h6"/></svg>
+            </div>
+            <h3>Robotics &amp; Perception</h3>
+            <p>Robots that know where they are and what they're looking at.</p>
+            <ul class="ticks">
+              <li>ROS 2 Jazzy, Nav2 and SLAM Toolbox in Gazebo</li>
+              <li>Monte Carlo localization, frontier exploration, behaviour trees</li>
+              <li>Open-vocabulary detection (YOLOE) projected into 3D with depth</li>
+              <li>Quantized models on edge hardware (Raspberry Pi, NCNN)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Experience ============ -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">02 — Experience</p>
+          <h2 id="experience-title">Where I've worked</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="job reveal">
+            <p class="job-date">Ongoing</p>
+            <div class="job-body">
+              <h3>Master's Thesis:  <span class="at"> Otto-von-Guericke University Magdeburg</span></h3>
+              <p class="job-summary">Robot localization on building evacuation plans using Monte Carlo localization and LLM observations, in ROS 2 and Gazebo.</p>
+              <ul>
+                <li>Particle filter fusing odometry, LiDAR, camera detections and an LLM used as a probabilistic sensor.</li>
+                <li>Fused approach reached 95% localization success after two LLM queries vs 20% for LiDAR-only; a live run cut position error from 4.9 m to under 0.5 m.</li>
+              </ul>
+              <a class="text-link" href="#featured">See the project <span aria-hidden="true">↓</span></a>
+            </div>
+          </li>
+
+          <li class="job reveal">
+            <p class="job-date">04/2026 — Present</p>
+            <div class="job-body">
+              <h3>Research Assistant <span class="at">, ScaDS.AI, TU Dresden</span></h3>
+              <ul>
+                <li>Built a full-stack annotation platform (FastAPI, PostgreSQL, SQLAlchemy, JavaScript) that produces ground-truth datasets for evidence-based text generation research.</li>
+                <li>Designed corpus-scale OpenAlex ingestion on HPC clusters with embedding-based clustering and hybrid LLM + rule-based filtering.</li>
+                <li>Containerized with Docker Compose behind an Apache reverse proxy, taking the tool from local prototype to a live system for domain experts.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="job reveal">
+            <!-- TODO: add dates for this role -->
+            <p class="job-date">During M.Sc.</p>
+            <div class="job-body">
+              <h3>Research Assistant <span class="at">, Otto-von-Guericke University Magdeburg</span></h3>
+              <ul>
+                <li>Built a clinical RAG assistant on BioMistral-7B with hybrid retrieval, reranking and MCP tool calling, used by students from Klinikum Magdeburg.</li>
+                <li>Built an autonomous exploration robot in ROS 2 Jazzy with SLAM Toolbox, Nav2, a py_trees behaviour tree, and LLM-based room recognition.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="job reveal">
+            <p class="job-date">03/2025 — 10/2025</p>
+            <div class="job-body">
+              <h3>AI Intern <span class="at">, Korro AI</span></h3>
+              <ul>
+                <li>Fine-tuned a TrOCR pipeline for handwriting anomaly detection, improving F1 by about 20% over the Google Vision OCR baseline.</li>
+                <li>Implemented the PoseScript paper from scratch and built an LLM-as-judge benchmark (DeepEval G-Eval) comparing Claude 3.5, GPT-4 and GPT-5.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="job reveal">
+            <p class="job-date">2021 — 2025</p>
+            <div class="job-body">
+              <h3>Test Automation <span class="at">· Infosys (2021–23) &amp; Up2Parts, working student (2024–25)</span></h3>
+              <ul>
+                <li>Built and maintained Cypress + TypeScript test suites and automated reports, cutting manual regression effort by 85%.</li>
+                <li>Automated processes with n8n and reported metrics in Grafana dashboards.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Projects ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">03 — Projects</p>
+          <h2 id="projects-title">Selected work</h2>
+        </header>
+
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter" data-filter="robotics" aria-pressed="false">Robotics</button>
+          <button type="button" class="filter" data-filter="ai" aria-pressed="false">AI &amp; LLMs</button>
+          <button type="button" class="filter" data-filter="cv" aria-pressed="false">Computer Vision</button>
+          <button type="button" class="filter" data-filter="ml" aria-pressed="false">ML &amp; RL</button>
+        </div>
+
+        <div class="projects">
+
+          <!-- Featured -->
+          <article class="project featured reveal" id="featured" data-cat="robotics ai cv">
+            <div class="featured-main">
+              <div class="project-top">
+                <span class="tag">Featured</span>
+                <span class="project-ctx">Master's thesis · OVGU Magdeburg</span>
+              </div>
+              <h3>Robot localization on evacuation plans with MCL and LLM observations</h3>
+              <p>
+                Estimating a robot's position and heading on a building evacuation plan, with no SLAM map.
+                A particle filter fuses odometry, LiDAR and camera detections with an LLM that reads the plan
+                and the scene, then reports which room the robot is in and which way it faces.
+              </p>
+              <ul class="ticks">
+                <li>Monte Carlo localization with an odometry motion model, a furniture-robust LiDAR likelihood, and low-variance resampling with random injection to recover from wrong pose locks.</li>
+                <li>LLM as a probabilistic sensor: plan, camera image, LiDAR summary and detections in; structured room and heading probabilities out, fused as a softened likelihood.</li>
+                <li>Prompt-free YOLOE detector with a depth camera and a 360° look-around that groups objects by direction.</li>
+                <li>OpenCV pipeline that turns evacuation-plan images into navigable maps with walls, free space and a distance field.</li>
+              </ul>
+              <ul class="chips" aria-label="Technologies">
+                <li>ROS 2</li><li>Gazebo</li><li>Particle filter</li><li>YOLOE</li><li>OpenCV</li><li>LLMs</li><li>Python</li>
+              </ul>
+            </div>
+            <dl class="featured-metrics">
+              <div><dt>95%</dt><dd>success after two LLM queries (fused, offline replay)</dd></div>
+              <div><dt>20%</dt><dd>LiDAR-only baseline</dd></div>
+              <div><dt>&lt; 0.5 m</dt><dd>live position error, down from 4.9 m</dd></div>
+            </dl>
+          </article>
+
+          <article class="project reveal" data-cat="robotics ai cv">
+            <div class="project-top">
+              <span class="tag">Robotics</span>
+              <span class="project-ctx">Research · OVGU</span>
+            </div>
+            <h3>Autonomous exploration &amp; room recognition</h3>
+            <p>A ROS 2 robot that maps an unknown multi-room house live, decides where to explore next, and works out what each room is from the objects it sees.</p>
+            <ul class="ticks">
+              <li>Custom frontier detection on the SLAM Toolbox occupancy grid; Nav2 for navigation.</li>
+              <li>py_trees behaviour tree with a shared blackboard for mapping, perception and exploration.</li>
+              <li>YOLOE + depth projected into world coordinates and clustered into a scene graph; an LLM (Claude API) infers the room type and re-queries until confident.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>ROS 2 Jazzy</li><li>Nav2</li><li>SLAM Toolbox</li><li>Gazebo</li><li>py_trees</li><li>YOLOE</li><li>Claude API</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" id="bosch" data-cat="robotics cv">
+            <div class="project-top">
+              <span class="tag">Robotics</span>
+              <span class="project-ctx">Bosch Future Mobility Challenge 2026</span>
+            </div>
+            <h3>Real-time detection &amp; lane segmentation on edge hardware</h3>
+            <p>A perception-to-control stack for an autonomous model car, running entirely on a Raspberry Pi.</p>
+            <ul class="ticks">
+              <li>Collected track data and annotated it in Roboflow: boxes for 10+ object classes, polygon masks for lanes.</li>
+              <li>YOLO26-s exported to NCNN for low-latency inference; a zero-copy shared-memory pipeline decouples camera, inference and steering.</li>
+              <li>Pure Pursuit path planning and Kalman filtering, with synchronized UART commands to an STM32.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>YOLO26</li><li>NCNN</li><li>Raspberry Pi</li><li>Roboflow</li><li>Kalman filter</li><li>STM32</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ai">
+            <div class="project-top">
+              <span class="tag">AI &amp; LLMs</span>
+              <span class="project-ctx">Personal project</span>
+            </div>
+            <h3>Self-correcting Text-to-SQL agent</h3>
+            <p>A LangGraph agent that lets non-technical users query a database in plain language, and fixes its own SQL when a query fails.</p>
+            <ul class="ticks">
+              <li>Self-healing ReAct loop feeds execution errors (syntax, schema mismatch) back to the LLM to regenerate the query.</li>
+              <li>Schema-aware graph state (Pydantic) retrieves only the relevant table metadata.</li>
+              <li>Human-in-the-loop approval before any INSERT / UPDATE / DELETE; charts generated in the same flow.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>LangGraph</li><li>Pydantic</li><li>SQL</li><li>Plotly</li><li>Python</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ai">
+            <div class="project-top">
+              <span class="tag">AI &amp; LLMs</span>
+              <span class="project-ctx">Research · OVGU</span>
+            </div>
+            <h3>Clinical RAG assistant on BioMistral-7B</h3>
+            <p>A health-domain LLM assistant used by a group of students from Klinikum Magdeburg.</p>
+            <ul class="ticks">
+              <li>Document-aware ingestion: section-aware splitting for clinical papers, recursive splitting with overlap for free text, embedded in ChromaDB.</li>
+              <li>Hybrid BM25 + dense retrieval with a cross-encoder reranker and few-shot prompting for exact clinical terms.</li>
+              <li>ReAct agent with MCP tool calling for external search; evaluated with BLEU, ROUGE, semantic similarity and LLM-as-judge.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>BioMistral-7B</li><li>LangChain</li><li>ChromaDB</li><li>BM25</li><li>Cross-encoder</li><li>MCP</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ai">
+            <div class="project-top">
+              <span class="tag">AI &amp; LLMs</span>
+              <span class="project-ctx">ScaDS.AI · TU Dresden</span>
+            </div>
+            <h3>Annotation platform for evidence-based text generation</h3>
+            <p>A full-stack tool domain experts use to create ground-truth datasets, taken from a local prototype to a live deployment.</p>
+            <ul class="ticks">
+              <li>FastAPI backend on PostgreSQL / SQLAlchemy with a JavaScript front end.</li>
+              <li>Corpus-scale OpenAlex ingestion on HPC with embedding clustering and hybrid LLM + rule-based filtering.</li>
+              <li>Docker Compose deployment behind an Apache reverse proxy on a TU Dresden server.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>FastAPI</li><li>PostgreSQL</li><li>SQLAlchemy</li><li>Docker Compose</li><li>Apache</li><li>HPC</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ai cv">
+            <div class="project-top">
+              <span class="tag">Computer Vision</span>
+              <span class="project-ctx">Korro AI</span>
+            </div>
+            <h3>Handwriting anomaly detection with TrOCR</h3>
+            <p>Fine-tuned OCR that flags mirrored and erroneous handwritten characters directly, without post-correction heuristics. <strong class="hl">+20% F1</strong> over Google Vision OCR.</p>
+            <ul class="ticks">
+              <li>Extended TrOCR's decoder vocabulary with mirrored-character tokens, so reversals are classified as anomalies.</li>
+              <li>OpenCV template registration and character segmentation robust to scan orientation; custom loss and augmentation for class imbalance.</li>
+              <li>LLM verification layer (chain-of-thought, few-shot) and a Gradio app for stakeholders.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>PyTorch</li><li>Hugging Face</li><li>TrOCR</li><li>OpenCV</li><li>Gradio</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ai cv">
+            <div class="project-top">
+              <span class="tag">AI &amp; LLMs</span>
+              <span class="project-ctx">Korro AI</span>
+            </div>
+            <h3>3D human pose captioning (PoseScript)</h3>
+            <p>A from-scratch implementation of the PoseScript paper that turns 3D human poses into detailed natural-language descriptions.</p>
+            <ul class="ticks">
+              <li>Rule-based analyzer turning joint angles and relative distances into structured "posecodes".</li>
+              <li>LLM generation pipeline from posecodes to fluent descriptions.</li>
+              <li>DeepEval G-Eval suite benchmarking Claude 3.5, GPT-4 and GPT-5 against human-annotated ground truth.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>Python</li><li>LLMs</li><li>DeepEval</li><li>G-Eval</li><li>TDD</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ml">
+            <div class="project-top">
+              <span class="tag">ML &amp; RL</span>
+              <span class="project-ctx">Reinforcement learning</span>
+            </div>
+            <h3>Adaptive traffic-signal control with A2C</h3>
+            <p>An Advantage Actor-Critic agent that optimizes traffic flow at signalized junctions in the SUMO simulator.</p>
+            <ul class="ticks">
+              <li>Shared network trunk with separate actor and critic heads and a shared Adam optimizer.</li>
+              <li>Exploration balanced with temperature and entropy regularization; experiments tracked in Weights &amp; Biases.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>PyTorch</li><li>A2C</li><li>SUMO</li><li>W&amp;B</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ml cv">
+            <div class="project-top">
+              <span class="tag">Computer Vision</span>
+              <span class="project-ctx">Medical imaging</span>
+            </div>
+            <h3>Undersampled MRI reconstruction</h3>
+            <p>A deep autoencoder that reconstructs high-fidelity images from undersampled MRI, built on a medical-imaging data pipeline for the IXI dataset.</p>
+            <ul class="chips" aria-label="Technologies">
+              <li>PyTorch</li><li>Autoencoders</li><li>IXI dataset</li>
+            </ul>
+          </article>
+
+          <article class="project reveal" data-cat="ml">
+            <div class="project-top">
+              <span class="tag">ML &amp; RL</span>
+              <span class="project-ctx">Forecasting</span>
+            </div>
+            <h3>Demand &amp; material forecasting on GCP</h3>
+            <p>A forecasting system for product sales, material requirements and prices in manufacturing.</p>
+            <ul class="ticks">
+              <li>Data pipelines from SAP Datasphere into BigQuery, enriched with external sources.</li>
+              <li>End-to-end Metaflow pipeline with XGBoost and linear regression; infrastructure in Terraform.</li>
+              <li>Looker Studio dashboards for sales trends, material demand and price forecasts.</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>GCP</li><li>BigQuery</li><li>Metaflow</li><li>XGBoost</li><li>Terraform</li><li>Looker Studio</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="projects-empty" id="projects-empty" hidden>No projects in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- ============ Skills ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">04 — Skills</p>
+          <h2 id="skills-title">Toolbox</h2>
+        </header>
+
+        <div class="skills">
+          <div class="skill-group reveal">
+            <h3>AI &amp; LLMs</h3>
+            <ul class="chips">
+              <li>LangChain</li><li>LangGraph</li><li>RAG</li><li>GraphRAG</li><li>MCP</li><li>ChromaDB</li><li>FAISS</li><li>Qdrant</li><li>LoRA fine-tuning</li><li>VLMs</li><li>Prompt engineering</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Robotics</h3>
+            <ul class="chips">
+              <li>ROS 2 Jazzy</li><li>Nav2</li><li>SLAM Toolbox</li><li>Gazebo Harmonic</li><li>py_trees</li><li>Monte Carlo localization</li><li>Kalman filter</li><li>Pure Pursuit</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Computer Vision</h3>
+            <ul class="chips">
+              <li>OpenCV</li><li>YOLO / YOLOE</li><li>CLIP</li><li>CNNs</li><li>Vision Transformers</li><li>TrOCR</li><li>NCNN</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>ML &amp; Deep Learning</h3>
+            <ul class="chips">
+              <li>PyTorch</li><li>Hugging Face</li><li>scikit-learn</li><li>NumPy</li><li>Pandas</li><li>SciPy</li><li>XGBoost</li><li>Actor-Critic RL</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Evaluation &amp; MLOps</h3>
+            <ul class="chips">
+              <li>DeepEval</li><li>LLM-as-judge</li><li>BLEU / ROUGE</li><li>Weights &amp; Biases</li><li>Metaflow</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Engineering &amp; Deployment</h3>
+            <ul class="chips">
+              <li>Python</li><li>TypeScript</li><li>FastAPI</li><li>PostgreSQL</li><li>SQLAlchemy</li><li>Docker Compose</li><li>Git</li><li>GitHub Actions</li><li>Azure DevOps</li><li>GCP</li><li>Terraform</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Testing &amp; Automation</h3>
+            <ul class="chips">
+              <li>Cypress</li><li>Selenium</li><li>Postman</li><li>JIRA / Xray</li><li>n8n</li><li>Grafana</li><li>Scrum</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">05 — Education</p>
+          <h2 id="education-title">Education</h2>
+        </header>
+
+        <div class="info-grid">
+          <article class="info-card reveal">
+            <p class="info-date">10/2023 — Present</p>
+            <h3>M.Sc. Digital Engineering (Data Science)</h3>
+            <p class="info-sub">Otto-von-Guericke University · Magdeburg, Germany</p>
+            <ul class="chips chips-quiet" aria-label="Relevant courses">
+              <li>Machine Learning</li><li>Deep Learning</li><li>Human-Centered NLP</li><li>Computer Vision</li><li>Software Engineering &amp; Databases</li><li>Distributed Databases</li><li>Data Warehouse Technology</li>
+            </ul>
+          </article>
+
+          <article class="info-card reveal">
+            <p class="info-date">2017 — 2021</p>
+            <h3>B.Tech. Electrical &amp; Electronics Engineering</h3>
+            <p class="info-sub">Government Engineering College · Trivandrum, India</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Hackathons ============ -->
+    <section class="section" id="hackathons" aria-labelledby="hackathons-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">06 — Hackathons</p>
+          <h2 id="hackathons-title">Hackathons</h2>
+        </header>
+
+        <div class="info-grid">
+          <article class="info-card reveal">
+            <p class="info-date">2026</p>
+            <h3>Bosch Future Mobility Challenge</h3>
+            <p class="info-sub">Robert Bosch Romania · Qualifiers</p>
+            <p class="info-text">
+              Autonomous-driving competition with model cars. I built the perception-to-control stack:
+              YOLO26-s detection and lane segmentation on a Raspberry Pi, with Pure Pursuit and Kalman
+              filtering sending steering commands to an STM32.
+            </p>
+            <a class="text-link" href="#bosch">See the project <span aria-hidden="true">↑</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="section-label">07 — Contact</p>
+          <h2 id="contact-title">Let's build something that thinks and moves.</h2>
+          <p class="contact-lede">
+            I'm looking for entry-level AI Engineer and Robotics Engineer roles in Germany. If you're working on
+            LLM systems, robot perception or anything in between, I'd love to hear from you.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:asminanassar77@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              asminanassar77@gmail.com
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/asmina-nassar" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://github.com/Asmina-hub" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Asmina Nassar</p>
+      <a class="text-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="assets/js/mcl.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
